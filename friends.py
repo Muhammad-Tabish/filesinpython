@@ -11,6 +11,6 @@ friends_nearby_Set = friends_set.intersection(people_nearby_set)
 nearby_friends_file = open('nearby_friends.txt','w')
 for friend in friends_nearby_Set:
     print(f'{friend} is nearby')
-    nearby_friends_file.write(f'{friend}/n')
-nearby_friends_file.close()
+    nearby_friends_file.write(f'{friend}\n')
+    nearby_friends_file.close()
 
