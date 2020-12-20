@@ -1,0 +1,4 @@
+name, age, university, degree
+tabish, 24, limkokwing, software engineering
+aziz, 22, limkokwing, business IT
+tanvir, 24, limkokwing, design
