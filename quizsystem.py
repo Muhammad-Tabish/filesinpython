@@ -1,15 +1,16 @@
-ques_files = open('question.txt','r')
-ques_list = [question.strip () for question in ques_files.readlines()]
-ques_files.close()
 
-correct_answer = 0
+questions = open("questions.txt", "r")
+question_list = [line.strip() for line in questions]
+questions.close()
 
-for question in ques_list:
-    pos = question.find('=')+1
-    user_ans = input(question[:pos])
-    if user_ans == question[pos]:
-        correct_answer = correct_answer + 1
-report = f'your final grade is {correct_answer} {len(ques_list)}'
-result = open('result.txt', 'w')
-result.write(report)
+score = 0
+total = len(question_list)
+for line in question_list:
+    q, a = line.split('=')
+    ans = input(f"{q}=")
+
+    if a == ans:
+        score += 1
+result = open("result.txt", "w")
+result.write(f"Your final score is {score}/{total}.")
 result.close()
