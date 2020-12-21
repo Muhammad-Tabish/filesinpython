@@ -1,19 +1,21 @@
 {
-    "friends" : [
-        {
-            "name ": "tabish",
-            "degree": "software engineering"
-        },
 
-        {
-             "name ": "hammad",
-            "degree": "computer engineering"
-        },
+     "friends":[
+     {
+     "name": "tabish", "degree": "software engineering"
 
-        {
-            "name ": "ahsan",
-            "degree": "hardware engineering"
-        }
-    ]
+     },
+
+     {
+        "name": "ahmed", "degree": "computer engineering"
+     },
+
+
+     {
+     "name": "ahsan", "degree": "hardware engineering"
+
+     }
+   ]
+
 
 }
