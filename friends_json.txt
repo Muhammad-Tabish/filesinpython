@@ -1,0 +1,19 @@
+{
+    "friends" : [
+        {
+            "name ": "tabish",
+            "degree": "software engineering"
+        },
+
+        {
+             "name ": "hammad",
+            "degree": "computer engineering"
+        },
+
+        {
+            "name ": "ahsan",
+            "degree": "hardware engineering"
+        }
+    ]
+
+}

@@ -12,5 +12,5 @@ for line in files:
     print(f'{name} is {age}, studying {degree} at {university}.')
 
 
-sample_csv_value = ':'.join(['Rolf', '25', 'MIT', 'computer science'])
+sample_csv_value = ','.join(['Rolf', '25', 'MIT', 'computer science'])
 print(sample_csv_value)
