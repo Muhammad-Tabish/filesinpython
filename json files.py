@@ -14,3 +14,8 @@ cars = [
 file_1 = open('cars_json.txt', 'w')
 json.dump(cars,file_1)
 file_1.close()
+
+
+inorrect_cars = '[{"name": "limkokwing", "year": 2020}]'
+inorrect1_cars = json.loads(inorrect_cars)
+print(inorrect1_cars [0] ['name'])

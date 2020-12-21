@@ -1,0 +1,4 @@
+club, city, country
+manchester united, turin, italy
+madrid, manchester,america
+spain juventus, uk real madrid, ham
